@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="589" height="628" viewBox="0 0 589 628">
+  <defs>
+    <!-- <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style> -->
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="0" y="0" width="589" height="628.25" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTg5IiBoZWlnaHQ9IjYyOC4yNSIgdmlld0JveD0iMCAwIDU4OSA2MjguMjUiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMjk0LjUiIHgyPSIyOTQuNSIgeTI9IjYyOC4yNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNlYzRkNGQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZTYxZTJiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI1ODkiIGhlaWdodD0iNjI4LjI1Ii8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%" > 
+    <stop offset="0%" stop-color="ec4d4d">
+                <animate attributeName="stop-color" values="ec4d4d; e61e2b; ec4d4d" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="e61e2b">
+                <animate attributeName="stop-color" values="e61e2b; ec4d4d; e61e2b" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+    </linearGradient>
+  </defs>
+  <g fill="url('#logo-gradient')" id="Logo_Pieces_copy_2" data-name="Logo Pieces copy 2" class="cls-1">
+    <path id="Top-good" class="cls-2" d="M0,0V135L295,383,589,135V0L295,259Z"/>
+    <path id="Bottom-good" class="cls-2" d="M0,245V380L295,628,589,380V245L295,504Z"/>
+    <path id="Left_Leg-good" data-name="Left Leg-good" class="cls-2" d="M0,336V491l98,81V458Z"/>
+    <path id="Right_Leg-good" data-name="Right Leg-good" class="cls-2" d="M589,354V489l-97,83V435Z"/>
+    <path id="Lower-Part-WLegs" class="cls-2" d="M589,244.884L295,504.05,0,244.884V491l97.75,81.75V462L295,628.25,491.75,462V572.75L589,489V244.884Z"/>
+  </g>
+</svg>

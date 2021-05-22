@@ -55,13 +55,28 @@ const Container = ({ children }) => {
             >
                 <Box>
                     <NextLink href="/" passHref>
+                        <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg['transparent'] }}>
+                            <img src="/PLZFFS.svg" width="50px" height="50px" style={{display: 'inline-block'}} _hover={{ fill: navHoverBg[colorMode] }}/>
+                        </Button>
+                    </NextLink>
+                    <NextLink href="/" passHref>
                         <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }}>
                             Home
                         </Button>
                     </NextLink>
-                    <NextLink href="/blog" passHref>
+                    {/* <NextLink href="/blog" passHref>
                         <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }}>
                             Blog
+                        </Button>
+                    </NextLink> */}
+                    <NextLink href="https://michaelradu.cf" passHref>
+                        <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }}>
+                            Portfolio
+                        </Button>
+                    </NextLink>
+                    <NextLink href="mailto:miihairadu@gmail.com" passHref>
+                        <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }}>
+                            Contact
                         </Button>
                     </NextLink>
                 </Box>
