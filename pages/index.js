@@ -57,7 +57,7 @@ export default function Blog({ posts }) {
                     >
                     <Heading mb={2}>Hi, I'm <Text mb={2} color={"#e61e2b"} style={{display: 'inline-block'}}>Michael Radu</Text></Heading>
                     <br></br>
-                    <Text color={colorSecondary[colorMode]}>I create software that helps me in my daily life and I like computers (especially Thinkpads), Unix-like operating systems and other stuff.</Text>
+                    <Text color={colorSecondary[colorMode]}>I create software that helps me in my daily life and I like computers (especially Thinkpads), Unix-like operating systems, robotics and other stuff.</Text>
                     <br></br>
                     <Text color={colorSecondary[colorMode]}>I like TV series/Movies like Mr. Robot and The Social Network but I guess that's to be expected.</Text>
                     <br></br>
