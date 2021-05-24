@@ -56,7 +56,7 @@ const Container = ({ children }) => {
                 <Box>
                     <NextLink href="/" passHref>
                         <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg['transparent'] }}>
-                            <img src="/PLZFFS.svg" width="50px" height="50px" style={{display: 'inline-block'}} _hover={{ fill: navHoverBg[colorMode] }}/>
+                            <img src="/Logo.svg" width="50px" height="50px" style={{display: 'inline-block'}} _hover={{ fill: navHoverBg[colorMode] }}/>
                         </Button>
                     </NextLink>
                     <NextLink href="/" passHref>
